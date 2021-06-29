@@ -19,3 +19,6 @@ class Calc_test(unittest.TestCase):  # helps us test
 
     def test_divide(self):
         self.assertEqual(calc_functions.divide(15, 3), 5)  # 15 / 3 = 5
+
+if __name__ == '__main__':
+    unittest.main()
