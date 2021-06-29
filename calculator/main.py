@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def welcome():
-    return 'Welcome to the Calulator app'
+    return 'Welcome to the Calulator app Jenkins'
 
 @app.route('/add/<int:num1>/<int:num2>')
 def perform_add(num1, num2):
